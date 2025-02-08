@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/movies-browser/static/js/main.444dbc13.js",
+    "main.js": "/movies-browser/static/js/main.eed8c39d.js",
     "static/js/488.f370dc91.chunk.js": "/movies-browser/static/js/488.f370dc91.chunk.js",
     "static/media/posterLiu.png": "/movies-browser/static/media/posterLiu.47eae1284235530ef564.png",
     "static/media/no-results.svg": "/movies-browser/static/media/no-results.03778e104c236c2e6f3a37f0afbb2311.svg",
     "static/media/shapeStar.svg": "/movies-browser/static/media/shapeStar.5b5ac609ed4eae72fb3b7845be0967d3.svg",
-    "static/media/star.svg": "/movies-browser/static/media/star.291f146da8ec732e66d3333dc945ea1b.svg",
     "index.html": "/movies-browser/index.html",
+    "static/media/star.svg": "/movies-browser/static/media/star.291f146da8ec732e66d3333dc945ea1b.svg",
     "static/media/iconMissingPerson.svg": "/movies-browser/static/media/iconMissingPerson.ac1e5e6515cf09c8a0c6ba5078b6e687.svg",
     "static/media/iconError.svg": "/movies-browser/static/media/iconError.1a50ec90bf2543fe78aca794450d3b21.svg",
     "static/media/iconCamera.svg": "/movies-browser/static/media/iconCamera.63449c4464cb80d38017d27d1dc4f5b2.svg",
     "static/media/iconArrow.svg": "/movies-browser/static/media/iconArrow.d4ddaa1d80df925ef33150707775db4e.svg",
     "static/media/iconSearch.svg": "/movies-browser/static/media/iconSearch.3dd8e7de5311db47be425590d6c5aecd.svg",
     "static/media/iconSpinner.svg": "/movies-browser/static/media/iconSpinner.17b2cd246403596367f2437ec95272ba.svg",
-    "main.444dbc13.js.map": "/movies-browser/static/js/main.444dbc13.js.map",
+    "main.eed8c39d.js.map": "/movies-browser/static/js/main.eed8c39d.js.map",
     "488.f370dc91.chunk.js.map": "/movies-browser/static/js/488.f370dc91.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.444dbc13.js"
+    "static/js/main.eed8c39d.js"
   ]
 }
