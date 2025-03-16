@@ -26,7 +26,7 @@
 ## 🌐 Live Demo
 
 🚀 Check out the live version of the app:<br>
-👉 [Movie Browser Live Demo](https://namerafal.github.io/movies-browser/)
+👉 [Movie Browser Live Demo](https://akutuzova11.github.io/react-movies-browser/)
 
 
 ## 🎥 Features
