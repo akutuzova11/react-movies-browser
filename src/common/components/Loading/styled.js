@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Icon } from "../../images/Spinner.svg";
+import { ReactComponent as Icon } from "../../../images/Spinner.svg";
 
 export const LoadingWrapper = styled.div`
   margin: 219px auto;

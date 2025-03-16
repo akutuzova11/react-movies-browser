@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 
-import { App } from './App';
-import reportWebVitals from './reportWebVitals';
-import { theme } from './theme';
-import { GlobalStyles } from './GlobalStyle';
+import { App } from './core/App';
+import reportWebVitals from './core/reportWebVitals';
+import { theme } from './core/theme';
+import { GlobalStyles } from './styles/GlobalStyle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

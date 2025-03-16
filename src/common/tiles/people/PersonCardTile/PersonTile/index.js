@@ -1,4 +1,4 @@
-import { toPersonPage } from "../../../../../routes";
+import { toPersonPage } from "../../../../../core/routes";
 import { PersonMissingPoster } from "../../PersonMissingPoster";
 import {
   ContentPerson,

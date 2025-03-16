@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { Section } from "../../../common/Section";
-import { Wrapper } from "../../../Wrapper";
+import { Section } from "../../../common/components/Section";
+import { Wrapper } from "../../../styles/Wrapper";
 import { Content } from "./styled";
 import { MovieTile } from "../../../common/tiles/movies/MovieTile";
 import {
@@ -12,11 +12,11 @@ import {
   selectTotalPages,
   selectTotalResults,
 } from "../moviesSlice";
-import { Loading } from "../../../common/Loading";
-import { Error } from "../../../common/Error";
-import { useQueryParameter } from "../../../common/Navigation/Search/queryParameters";
-import { Pagination } from "../../../common/Pagination";
-import { NoResults } from "../../../common/NoResults";
+import { Loading } from "../../../common/components/Loading";
+import { Error } from "../../../common/components/Error";
+import { useQueryParameter } from "../../../common/components/Navigation/Search/queryParameters";
+import { Pagination } from "../../../common/components/Pagination";
+import { NoResults } from "../../../common/components/NoResults";
 import {
   pageQueryParamName,
   searchQueryParamName,

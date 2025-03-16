@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as ArrowIcon } from "../../images/Arrow.svg";
+import { ReactComponent as ArrowIcon } from "../../../images/Arrow.svg";
 
 export const Wrapper = styled.footer`
   display: flex;

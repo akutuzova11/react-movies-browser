@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { Section } from "../../../common/Section";
-import { Wrapper } from "../../../Wrapper";
+import { Section } from "../../../common/components/Section";
+import { Wrapper } from "../../../styles/Wrapper";
 import {
   selectPeople,
   selectPeopleState,
@@ -12,12 +12,12 @@ import {
 } from "../peopleSlice";
 import { PersonContent } from "../../../common/tiles/people/PersonCardTile/styled";
 import { PersonTile } from "../../../common/tiles/people/PersonCardTile/PersonTile";
-import { useQueryParameter } from "../../../common/Navigation/Search/queryParameters";
+import { useQueryParameter } from "../../../common/components/Navigation/Search/queryParameters";
 
-import { Pagination } from "../../../common/Pagination";
-import { Error } from "../../../common/Error";
-import { Loading } from "../../../common/Loading";
-import { NoResults } from "../../../common/NoResults";
+import { Pagination } from "../../../common/components/Pagination";
+import { Error } from "../../../common/components/Error";
+import { Loading } from "../../../common/components/Loading";
+import { NoResults } from "../../../common/components/NoResults";
 import { pageQueryParamName, searchQueryParamName } from "../../../common/QueryParamName";
 
 function PeopleList() {

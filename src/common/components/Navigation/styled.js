@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
-import { ReactComponent as IconCamera } from "../../images/Camera.svg";
+import { ReactComponent as IconCamera } from "../../../images/Camera.svg";
 
 export const NavigationStyled = styled.nav`
   background-color: ${({ theme }) => theme.color.black};

@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import { useEffect } from "react";
-import { Wrapper } from "../../../Wrapper";
-import { Section } from "../../../common/Section";
+import { Wrapper } from "../../../styles/Wrapper";
+import { Section } from "../../../common/components/Section";
 import { Content } from "../../movies/MovieList/styled";
 import { PersonDetailsTile } from "../../../common/tiles/people/PersonDetailsTile";
 import { MovieTile } from "../../../common/tiles/movies/MovieTile";
@@ -11,8 +11,8 @@ import {
   selectPersonDetails,
   selectPeopleState,
 } from "../peopleSlice";
-import { Article } from "../../../common/Article";
-import { useIsMobile } from "../../../useIsMobile";
+import { Article } from "../../../common/components/Article";
+import { useIsMobile } from "../../../hooks/useIsMobile";
 import {
   selectCast,
   selectCastError,
@@ -21,8 +21,8 @@ import {
   selectCrewError,
   selectCrewLoading,
 } from "../../creditsSlice";
-import { Loading } from "../../../common/Loading";
-import { Error } from "../../../common/Error";
+import { Loading } from "../../../common/components/Loading";
+import { Error } from "../../../common/components/Error";
 import { groupCrewMovies } from "../../groupedCrew";
 
 function PersonPage() {

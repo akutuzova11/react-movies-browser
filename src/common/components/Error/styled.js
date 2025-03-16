@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as Error } from "../../images/Error.svg";
+import { ReactComponent as Error } from "../../../images/Error.svg";
 
 export const ErrorWrapper = styled.div`
   margin: 180px 16px auto 16px;

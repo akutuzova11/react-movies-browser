@@ -4,7 +4,7 @@ import {
   NameItemDisplay,
   ContentItem,
 } from "../../../movies/MovieDetailsTile/ProductionInfo/styled";
-import { useIsMobile } from "../../../../../useIsMobile";
+import { useIsMobile } from "../../../../../hooks/useIsMobile";
 
 export const BirthInfo = ({ info, personDetailsSize }) => {
   const isMobile = useIsMobile();

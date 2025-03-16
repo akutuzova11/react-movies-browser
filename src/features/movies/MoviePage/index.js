@@ -5,10 +5,10 @@ import { useEffect } from "react";
 import { MovieDetailsTile } from "../../../common/tiles/movies/MovieDetailsTile";
 import { PersonTile } from "../../../common/tiles/people/PersonCardTile/PersonTile";
 import { PersonContent } from "../../../common/tiles/people/PersonCardTile/styled";
-import { Section } from "../../../common/Section";
+import { Section } from "../../../common/components/Section";
 import { MovieBanner } from "../../../common/tiles/movies/MovieDetailsTile/banner/MovieBanner";
 import { SectionBanner } from "../../../common/tiles/movies/MovieDetailsTile/banner/SectionBanner";
-import { Wrapper } from "../../../Wrapper";
+import { Wrapper } from "../../../styles/Wrapper";
 import {
   fetchMovieDetails,
   selectMovieDetails,
@@ -22,9 +22,9 @@ import {
   selectCrewError,
   selectCrewLoading,
 } from "../../creditsSlice";
-import { Loading } from "../../../common/Loading";
-import { Error } from "../../../common/Error";
-import { Article } from "../../../common/Article";
+import { Loading } from "../../../common/components/Loading";
+import { Error } from "../../../common/components/Error";
+import { Article } from "../../../common/components/Article";
 import { groupCrewPeople } from "../../groupedCrew";
 import { selectGenresError } from "../genresSlice";
 

@@ -1,5 +1,5 @@
 import axios from "axios";
-import { apiKey, apiUrl } from "../api";
+import { apiKey, apiUrl } from "../api/api";
 
 export const getSearchResults = async (page, searchQuery, searchType) => {
   try {

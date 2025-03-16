@@ -9,7 +9,7 @@ import {
   StyledLink,
   PosterWrapper,
 } from "./styled";
-import { toMoviePage } from "../../../../routes";
+import { toMoviePage } from "../../../../core/routes";
 import { MovieMissingPoster } from "../../movies/MovieMissingPoster";
 
 export const MovieTile = ({
@@ -41,15 +41,15 @@ export const MovieTile = ({
       <InfoContent>
         <Details>
           {title && <Title>{title}</Title>}
-            <ReleaseDate>
-            {releaseDate ? 
-              castCharacter
+          <ReleaseDate>
+            {releaseDate
+              ? castCharacter
                 ? `${castCharacter} (${releaseDate.slice(0, 4)})`
                 : crewJob
                 ? `${displayCrewJob}(${releaseDate.slice(0, 4)})`
                 : releaseDate.slice(0, 4)
               : "N/A"}
-            </ReleaseDate>
+          </ReleaseDate>
           <Genre genreIds={genreIds} genresError={genresError} />
         </Details>
         <Ratings ratings={{ rate: voteAverage, votes: voteCount }} />

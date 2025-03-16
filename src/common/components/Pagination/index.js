@@ -9,9 +9,9 @@ import {
   PageLabel,
   PageNumber,
 } from "./styled.js";
-import { theme } from "../../theme.js";
+import { theme } from "../../../core/theme.js";
 import { useHistory, useLocation } from "react-router-dom/cjs/react-router-dom.min.js";
-import { pageQueryParamName } from "../../common/QueryParamName.js";
+import { pageQueryParamName } from "../../QueryParamName.js";
 
 const PaginationButton = ({ onClick, disabled, children, direction }) => (
   <Button disabled={disabled} onClick={onClick}>

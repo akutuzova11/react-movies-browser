@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useQueryParameter, useUpdateQueryParameter } from "./queryParameters";
 import { Input, SearchContainer, SearchIcon } from "./styled";
 import { useLocation } from "react-router-dom/cjs/react-router-dom.min";
-import { searchQueryParamName } from "../../QueryParamName";
+import { searchQueryParamName } from "../../../QueryParamName";
 
 export const Search = () => {
     const location = useLocation();

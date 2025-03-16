@@ -6,12 +6,12 @@ import {
   ReleaseDate,
   TileContent,
   PosterWrapper,
-} from "../../../StylesDetailsTile/styled.js";
+} from "../../../components/StylesDetailsTile/styled.js";
 import { ProductionInfo } from "./ProductionInfo/index.js";
 import { Ratings } from "./Ratings/index.js";
 import { MovieDescription } from "./Description/index.js";
 import { Genre } from "./Genre/index.js";
-import { theme } from "../../../../theme.js";
+import { theme } from "../../../../core/theme.js";
 import { useEffect, useState } from "react";
 import { MovieMissingPoster } from "../MovieMissingPoster/index.js";
 
@@ -41,7 +41,7 @@ export const MovieDetailsTile = ({
   }, []);
 
   const getCountries = (countries) => {
-    if (!countries|| countries.length === 0) return "N/A";
+    if (!countries || countries.length === 0) return "N/A";
 
     return countries
       .map((country) => {
@@ -67,11 +67,7 @@ export const MovieDetailsTile = ({
         )}
       </PosterWrapper>
       <TileContent>
-        {title ? (
-          <TileTitle>{title}</TileTitle>
-        ) : (
-          <TileTitle>N/A</TileTitle>
-        )}
+        {title ? <TileTitle>{title}</TileTitle> : <TileTitle>N/A</TileTitle>}
         {releaseDate ? (
           <ReleaseDate>{releaseDate.slice(0, 4)}</ReleaseDate>
         ) : (

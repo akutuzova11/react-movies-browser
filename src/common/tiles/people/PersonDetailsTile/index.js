@@ -7,7 +7,7 @@ import {
   TileContent,
   TileTitle,
   Wrapper,
-} from "../../../StylesDetailsTile/styled.js";
+} from "../../../components/StylesDetailsTile/styled.js";
 import { PersonMissingPoster } from "../../people/PersonMissingPoster";
 
 export const PersonDetailsTile = ({
