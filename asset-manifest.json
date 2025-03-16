@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/movies-browser/static/js/main.8b791b1c.js",
-    "static/js/488.f370dc91.chunk.js": "/movies-browser/static/js/488.f370dc91.chunk.js",
-    "static/media/NoResults.svg": "/movies-browser/static/media/NoResults.03778e104c236c2e6f3a37f0afbb2311.svg",
-    "static/media/Star.svg": "/movies-browser/static/media/Star.5b5ac609ed4eae72fb3b7845be0967d3.svg",
-    "index.html": "/movies-browser/index.html",
-    "static/media/star.svg": "/movies-browser/static/media/star.291f146da8ec732e66d3333dc945ea1b.svg",
-    "static/media/MissingPerson.svg": "/movies-browser/static/media/MissingPerson.ac1e5e6515cf09c8a0c6ba5078b6e687.svg",
-    "static/media/Error.svg": "/movies-browser/static/media/Error.1a50ec90bf2543fe78aca794450d3b21.svg",
-    "static/media/Camera.svg": "/movies-browser/static/media/Camera.63449c4464cb80d38017d27d1dc4f5b2.svg",
-    "static/media/Arrow.svg": "/movies-browser/static/media/Arrow.d4ddaa1d80df925ef33150707775db4e.svg",
-    "static/media/Search.svg": "/movies-browser/static/media/Search.3dd8e7de5311db47be425590d6c5aecd.svg",
-    "static/media/Spinner.svg": "/movies-browser/static/media/Spinner.17b2cd246403596367f2437ec95272ba.svg",
-    "main.8b791b1c.js.map": "/movies-browser/static/js/main.8b791b1c.js.map",
-    "488.f370dc91.chunk.js.map": "/movies-browser/static/js/488.f370dc91.chunk.js.map"
+    "main.js": "/react-movies-browser/static/js/main.135acab6.js",
+    "static/js/488.f370dc91.chunk.js": "/react-movies-browser/static/js/488.f370dc91.chunk.js",
+    "static/media/NoResults.svg": "/react-movies-browser/static/media/NoResults.03778e104c236c2e6f3a37f0afbb2311.svg",
+    "static/media/Star.svg": "/react-movies-browser/static/media/Star.5b5ac609ed4eae72fb3b7845be0967d3.svg",
+    "index.html": "/react-movies-browser/index.html",
+    "static/media/star.svg": "/react-movies-browser/static/media/star.291f146da8ec732e66d3333dc945ea1b.svg",
+    "static/media/MissingPerson.svg": "/react-movies-browser/static/media/MissingPerson.ac1e5e6515cf09c8a0c6ba5078b6e687.svg",
+    "static/media/Error.svg": "/react-movies-browser/static/media/Error.1a50ec90bf2543fe78aca794450d3b21.svg",
+    "static/media/Camera.svg": "/react-movies-browser/static/media/Camera.63449c4464cb80d38017d27d1dc4f5b2.svg",
+    "static/media/Arrow.svg": "/react-movies-browser/static/media/Arrow.d4ddaa1d80df925ef33150707775db4e.svg",
+    "static/media/Search.svg": "/react-movies-browser/static/media/Search.3dd8e7de5311db47be425590d6c5aecd.svg",
+    "static/media/Spinner.svg": "/react-movies-browser/static/media/Spinner.17b2cd246403596367f2437ec95272ba.svg",
+    "main.135acab6.js.map": "/react-movies-browser/static/js/main.135acab6.js.map",
+    "488.f370dc91.chunk.js.map": "/react-movies-browser/static/js/488.f370dc91.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8b791b1c.js"
+    "static/js/main.135acab6.js"
   ]
 }
